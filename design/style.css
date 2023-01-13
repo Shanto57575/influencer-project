@@ -85,14 +85,14 @@ li a {
     width: 1110px;
     height: 110px;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
-    margin: 0 165px;
+    box-shadow: 7px 7px 10px gainsboro;
+    margin: 0 auto;
+    background: white;
 }
 
-.mid-logos img {
-    margin-right: 60px;
-}
+
 
 /* Popular Collection styling */
 .Popular-Collection {
