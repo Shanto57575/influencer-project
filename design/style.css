@@ -14,7 +14,9 @@
     justify-content: space-between;
     align-items: center;
 }
-
+.tittle i{
+    display: none;
+}
 .menubar ul {
     display: flex;
 }
@@ -227,4 +229,17 @@ footer {
 .icons i{
     margin: 7px;
     color: gainsboro;
+}
+/* Media query starts here */
+
+/* Responsive design for mobile phone */
+
+@media screen and (max-width:576px){
+    .menubar .hidden{
+        display: none;
+    }
+    .tittle{
+        display: contents;
+        display: flex;
+    }
 }
